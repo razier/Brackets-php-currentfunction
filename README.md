@@ -12,8 +12,8 @@ Brackets PHP Current Function is an extension for [Brackets](https://github.com/
 To install extensions:
 
 1. Choose _File > Extension Manager_ and select the _Available_ tab
-2. Search for this extension
-3. Click _Install_!
+2. Search for PHP Current Function
+3. Click Install!
 
 
 ### License
