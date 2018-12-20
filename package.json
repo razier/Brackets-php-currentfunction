@@ -1,7 +1,7 @@
 {
     "name": "razier.php-currentfunction",
     "title": "PHP Current Function",
-    "description": "Brackets extension that shows the current php function that you are currently in on the status bar..",
+    "description": "Brackets extension that shows the current php function that you are currently in on the status bar.",
     "homepage": "https://github.com/razier/brackets-php-currentfunction",
     "version": "1.0.0",
     "author": "Raz Hoe <raz@razier.com> (https://razier.com)",
