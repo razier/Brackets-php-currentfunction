@@ -12,8 +12,13 @@ define(function(require, exports, module) {
 
 
 	function writeStatus(statusMessage, extraMessage=""){
-		$statusBar.text(" - " + statusMessage);
-		$statusBar.attr("title", extraMessage);
+		if(statusMessage!=""){
+			$statusBar.text(" - " + statusMessage);
+			$statusBar.attr("title", extraMessage);
+		}else{
+			$statusBar.text("");
+			$statusBar.attr("title", "");
+		}
 	}
 	
 	function getPosition(Editor){
@@ -51,7 +56,5 @@ define(function(require, exports, module) {
 			editorGainingFocus.on('cursorActivity', cursorHandler);
 		}
 	});
-    
-    //ExtensionUtils.addEmbeddedStyleSheet("#status-info .currentfunction-label { color: #aaa; }" + "body.dark #status-info .currentfunction-label { color: #9a9a9a; }");
-    
+        
 });
